@@ -1,0 +1,14 @@
+{
+    "Arrow function": {
+        "prefix": "fn",
+        "body": ["const ${1:name} = (${2}) => {", "    $3", "}"]
+    },
+    "import from": {
+        "prefix": "im",
+        "body": ["import $2 from $1"]
+    },
+    "import default from": {
+        "prefix": "id",
+        "body": ["import $2 from $1"]
+    }
+}

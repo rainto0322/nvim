@@ -1,0 +1,33 @@
+local backup_icons = {
+    Up = "",
+    Down = "",
+    Left = "",
+    Right = "",
+    C = "Ctrl ",
+    M = "Alt ",
+    D = "󰘳 ",
+    S = "󰘶 ",
+    CR = "󰌑 ",
+    Esc = "󱊷 ",
+    ScrollWheelDown = "󱕐",
+    ScrollWheelUp = "󱕑",
+    Space = "",
+    Tab = "󰌒 ",
+}
+
+return {
+    Up = "Up",
+    Down = "Down",
+    Left = "Left",
+    Right = "Right",
+    C = "Ctrl ",
+    M = "Alt ",
+    D = "Comma ",
+    S = "Shift ",
+    CR = "Enter ",
+    Esc = "Esc",
+    ScrollWheelDown = "scroll_down",
+    ScrollWheelUp = "scroll_up",
+    Space = "space",
+    Tab = "Tab",
+}
