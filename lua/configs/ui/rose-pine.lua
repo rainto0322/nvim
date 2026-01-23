@@ -15,6 +15,8 @@ return function()
 			FloatBorder = { bg = p.base },
 			healthSectionDelim = { fg = p.iris },
 			DiagnosticInfo = { fg = p.leaf },
+			StatusLineTerm = { bg = p.leaf, fg = p.base, bold = true, blend = 50 },
+			StatusLineTermNC = { bg = p.love, fg = p.base },
 
 			-- toml
 			tomlTable = { fg = p.love },
