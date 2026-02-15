@@ -12,7 +12,7 @@ return function()
             --—————————— layout_config ——————————--
             sorting_strategy = "ascending", -- default "descending"
             layout_config = {
-                width = 0.5,
+                width = 0.85,
                 height = 0.6,
                 prompt_position = "top",
                 preview_cutoff = 120,

@@ -18,7 +18,7 @@ return {
         wrap = true,
         backdrop = 100,
         border = settings["border"],
-        size = { width = 0.45, height = 0.6 },
+        size = { width = 0.85, height = 0.6 },
         icons = require("utils.icons.lazy-icons"),
     },
 

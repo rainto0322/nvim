@@ -1,7 +1,7 @@
 -- https://github.com/mason-org/mason.nvim?tab=readme-ov-file#configuration
 return function()    require("mason").setup({
         ui = {
-            width = 0.45,
+            width = 0.85,
             height = 0.6,
             border = settings["border"],
             backdrop = 100,
