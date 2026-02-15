@@ -70,7 +70,7 @@ local Options = {
     showmode = false, -- 显示模式指示器
 
     -- appearance
-    cmdheight = 0,     -- 0, 1, 2
+    cmdheight = 1,     -- 0, 1, 2
     cmdwinheight = 5,
     scrolloff = 5,     -- 光标上下保留行数
     sidescrolloff = 8, -- 左右各保留列 | 999 始终居中

@@ -1,27 +1,33 @@
 {
-  "name": "personal-snippets",
-  "contributes": {
-    "snippets": [
-      {
-        "language": "javascript",
-        "path": "./js.json"
-      },
-      {
-        "language": [
-          "vue",
-          "typescript",
-          "javascriptreact"
-        ],
-        "path": "./vue.json"
-      },
-      {
-        "language": [
-          "markdown",
-          "plaintext",
-          "md"
-        ],
-        "path": "./markdown.json"
-      }
-    ]
-  }
+    "name": "personal-snippets",
+    "contributes": {
+        "snippets": [
+            {
+                "language": "javascript",
+                "path": "./js.json"
+            },
+            {
+                "language": [
+                    "vue",
+                    "typescript",
+                    "javascriptreact"
+                ],
+                "path": "./vue.json"
+            },
+            {
+                "language": [
+                    "svelte"
+                ],
+                "path": "./svelte.json"
+            },
+            {
+                "language": [
+                    "markdown",
+                    "plaintext",
+                    "md"
+                ],
+                "path": "./markdown.json"
+            }
+        ]
+    }
 }

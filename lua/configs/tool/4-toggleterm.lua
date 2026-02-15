@@ -6,7 +6,8 @@ return function()
             border = settings["border"],
             width = 120
         },
-        open_mapping = nil,
+        open_mapping = [[<leader>m]],
+        insert_mappings = true,
         highlights = {
             Normal = { link = "Normal" },
             NormalFloat = { link = "NormalFloat" },

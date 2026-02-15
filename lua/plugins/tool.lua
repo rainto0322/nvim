@@ -80,14 +80,14 @@ return {
     },
 
 
-    -- 🎞 Image viewer
-    {
-        "3rd/image.nvim",
-        lazy = false,
-        enabled = true,
-        priority = 1000,
-        config = require("tool.6-image")
-    }
+    -- -- 🎞 Image viewer
+    -- {
+    --     "3rd/image.nvim",
+    --     lazy = false,
+    --     enabled = true,
+    --     priority = 1000,
+    --     config = require("tool.6-image")
+    -- }
 
     -- -- 🪟 Peek preview window for LSP
     -- {

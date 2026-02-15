@@ -21,9 +21,9 @@ return function()
                             text = function(ctx) return ctx.label .. ctx.label_detail end,
                         },
                         kind_icon = {
-                            -- text = function(ctx) return ctx.kind_icon .. ctx.icon_gap end,
-                            text = function(ctx) return "" end,
-                            -- highlight = function(ctx) return { { group = ctx.kind_hl, priority = 10000 } } end,
+                            text = function(ctx) return ctx.kind_icon .. ctx.icon_gap end,
+                            -- text = function(ctx) return "" end,
+                            highlight = function(ctx) return { { group = ctx.kind_hl, priority = 10000 } } end,
                         },
                         kind = {
                             ellipsis = false,

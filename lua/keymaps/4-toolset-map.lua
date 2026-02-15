@@ -4,7 +4,7 @@ load_mapping({
     -- nvim-tree
     ["nvt|<leader>e"] = cmd("NvimTreeToggle"):noremap():silent():desc("Show File Manager"),
     -- toggleterm
-    ["nvt|<leader>m"] = cmd("ToggleTerm"):noremap():silent():desc("Show Terminal"),
+    ["nvt|<F1>"] = cmd("ToggleTerm"):noremap():silent():desc("Show Terminal"),
 
     -- telescope.nvim
     ["nvi|<C-e>"] = cmd("lua require('telescope.builtin').buffers()"):noremap():silent():desc("Find Buffers"),

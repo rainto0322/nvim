@@ -19,7 +19,7 @@ return function()
                 horizontal = { preview_width = 0.5 },
                 vertical = { mirror = false },
             },
-            file_ignore_patterns = { ".git/", "node_modules/","%.min.%", ".vercel/", ".cache", "build/", "%.class", "%.pdf", "%.mkv", "%.mp4", "%.zip" },
+            file_ignore_patterns = { ".git/", "node_modules/","public/", "%.min.%", ".vercel/", ".cache", "build/", "%.class", "%.mkv", "%.mp4", "%.zip" },
             --—————————— keymapping ——————————--
             mappings = {
                 i = {
